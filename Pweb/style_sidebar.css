@@ -1,0 +1,24 @@
+.sidebar {
+    width: 20rem;
+    height: 100vh; 
+    overflow: hidden; 
+}
+.sidebar ul {
+    max-height: calc(100vh - 60px); 
+    overflow-y: auto; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.sidebar ul li {
+    margin: 10px 0;
+}
+.sidebar ul li a {
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #000;
+}
+.sidebar ul li a:hover {
+    background-color: #f0f0f0;
+}
